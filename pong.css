@@ -1,0 +1,28 @@
+
+body{
+    background-color: #2141f3;
+    box-sizing: border-box;
+    overflow:hidden;
+    margin: 0;
+}
+    .pong-grid{
+        display: grid;
+        justify-content: center;
+        align-content: center;
+        grid-template-columns: repeat(auto-fit, 10px);
+        grid-template-rows: repeat(100, 10px);
+        margin: 0;
+  }
+
+    .pong-grid > button {
+        cursor: pointer;
+        border: 0.1px solid #2141f3;
+        outline: 0;
+        background-color:#DAEAFB;
+  }
+    button:focus{
+        background-color: red;
+    }
+    .pong-grid> button:hover{
+        background-color:#2141f3;
+    }
